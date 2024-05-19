@@ -4,7 +4,7 @@ import { Separator } from "@/components/ui/separator";
 
 export const Header = () => {
   return (
-    <header className="flex items-center justify-between p-4 border-b">
+    <header className="flex items-center justify-between p-[10px] border-b">
       <div className="flex items-center space-x-4">
         <Image
           src={"/logo.png"}
@@ -19,16 +19,10 @@ export const Header = () => {
           Home
         </a> */}
       </nav>
-      <div className="flex gap-[10px]">
+      <div className="flex gap-[10px] items-center">
         <Connect />
-        <Separator orientation="vertical" className="h-[inherit]" />
-        <Image
-          src={"/icons/lang.svg"}
-          width={20}
-          height={20}
-          alt="lang"
-          className="cursor-pointer"
-        />
+        {/* <Separator orientation="vertical" className="h-[inherit]" /> */}
+        
       </div>
     </header>
   );

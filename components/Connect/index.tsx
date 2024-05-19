@@ -57,7 +57,7 @@ export const Connect = () => {
                   <button
                     onClick={openChainModal}
                     type="button"
-                    className="font-bold text-[14px] flex items-center"
+                    className="font-bold text-[12px] flex items-center"
                   >
                     {chain.hasIcon && (
                       <div
@@ -85,7 +85,7 @@ export const Connect = () => {
                   <button
                     onClick={openAccountModal}
                     type="button"
-                    className="font-bold text-[14px]"
+                    className="font-bold text-[12px]"
                   >
                     {account.displayName}
                     {account.displayBalance

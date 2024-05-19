@@ -1,13 +1,15 @@
-"use client";
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "@rainbow-me/rainbowkit/styles.css";
-import "./globals.css";
+'use client'
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import '@rainbow-me/rainbowkit/styles.css'
+import './globals.css'
 
-import { getDefaultConfig, RainbowKitProvider } from "@rainbow-me/rainbowkit";
-import { WagmiProvider } from "wagmi";
-import { sepolia } from "wagmi/chains";
-import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
+import { getDefaultConfig, RainbowKitProvider } from '@rainbow-me/rainbowkit'
+import { WagmiProvider } from 'wagmi'
+import { sepolia } from 'wagmi/chains'
+import { QueryClientProvider, QueryClient } from '@tanstack/react-query'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 
 // export const metadata: Metadata = {
 //   title: "Create Next App",
@@ -15,27 +17,33 @@ import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 // };
 
 const config = getDefaultConfig({
-  appName: "My RainbowKit App",
-  projectId: "20e51afb11d9c71a19fd24ad96f622f2",
+  appName: 'My RainbowKit App',
+  projectId: '20e51afb11d9c71a19fd24ad96f622f2',
   chains: [sepolia],
-  ssr: true, // If your dApp uses server side rendering (SSR)
-});
+  ssr: true // If your dApp uses server side rendering (SSR)
+})
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient()
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="en">
       <body>
         <WagmiProvider config={config}>
           <QueryClientProvider client={queryClient}>
-            <RainbowKitProvider>{children}</RainbowKitProvider>
+            <RainbowKitProvider>
+              <div className="flex flex-col h-[100vh] flex-1">
+                <Header />
+                <div className="flex grow-[inherit]">{children}</div>
+                <Footer />
+              </div>
+            </RainbowKitProvider>
           </QueryClientProvider>
         </WagmiProvider>
       </body>
     </html>
-  );
+  )
 }

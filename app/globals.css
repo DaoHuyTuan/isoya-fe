@@ -43,16 +43,17 @@
  */
 /*{"last_published":"2024-05-18 17:33:19 UTC"}*/
 
-@import url("https://p.typekit.net/p.css?s=1&k=mjp4fhc&ht=tk&f=15531.37729.37730.37733.37734.37736.37737.37735.43349.43350.43351.43352.43353.43354.43355.43356.43357.48821.48822.48825.48827.48828.48829&a=178147836&app=typekit&e=css");
+@import url('https://p.typekit.net/p.css?s=1&k=mjp4fhc&ht=tk&f=15531.37729.37730.37733.37734.37736.37737.37735.43349.43350.43351.43352.43353.43354.43355.43356.43357.48821.48822.48825.48827.48828.48829&a=178147836&app=typekit&e=css');
 
 @font-face {
-  font-family: "indivisible";
-  src: url("https://use.typekit.net/af/dc1f1b/00000000000000007735eeb8/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/dc1f1b/00000000000000007735eeb8/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/dc1f1b/00000000000000007735eeb8/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
-      format("opentype");
+  font-family: 'indivisible';
+  src:
+    url('https://use.typekit.net/af/dc1f1b/00000000000000007735eeb8/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/dc1f1b/00000000000000007735eeb8/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/dc1f1b/00000000000000007735eeb8/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3')
+      format('opentype');
   font-display: auto;
   font-style: normal;
   font-weight: 700;
@@ -60,13 +61,14 @@
 }
 
 @font-face {
-  font-family: "indivisible";
-  src: url("https://use.typekit.net/af/e8de55/00000000000000007735eeba/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/e8de55/00000000000000007735eeba/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/e8de55/00000000000000007735eeba/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
-      format("opentype");
+  font-family: 'indivisible';
+  src:
+    url('https://use.typekit.net/af/e8de55/00000000000000007735eeba/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/e8de55/00000000000000007735eeba/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/e8de55/00000000000000007735eeba/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3')
+      format('opentype');
   font-display: auto;
   font-style: italic;
   font-weight: 700;
@@ -74,13 +76,14 @@
 }
 
 @font-face {
-  font-family: "indivisible";
-  src: url("https://use.typekit.net/af/51a05d/00000000000000007735eebc/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/51a05d/00000000000000007735eebc/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/51a05d/00000000000000007735eebc/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
-      format("opentype");
+  font-family: 'indivisible';
+  src:
+    url('https://use.typekit.net/af/51a05d/00000000000000007735eebc/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/51a05d/00000000000000007735eebc/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/51a05d/00000000000000007735eebc/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3')
+      format('opentype');
   font-display: auto;
   font-style: normal;
   font-weight: 500;
@@ -88,13 +91,14 @@
 }
 
 @font-face {
-  font-family: "indivisible";
-  src: url("https://use.typekit.net/af/9e7dcb/00000000000000007735eebb/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/9e7dcb/00000000000000007735eebb/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/9e7dcb/00000000000000007735eebb/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("opentype");
+  font-family: 'indivisible';
+  src:
+    url('https://use.typekit.net/af/9e7dcb/00000000000000007735eebb/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/9e7dcb/00000000000000007735eebb/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/9e7dcb/00000000000000007735eebb/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3')
+      format('opentype');
   font-display: auto;
   font-style: normal;
   font-weight: 400;
@@ -102,13 +106,14 @@
 }
 
 @font-face {
-  font-family: "indivisible";
-  src: url("https://use.typekit.net/af/2c8795/00000000000000007735eebd/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/2c8795/00000000000000007735eebd/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/2c8795/00000000000000007735eebd/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
-      format("opentype");
+  font-family: 'indivisible';
+  src:
+    url('https://use.typekit.net/af/2c8795/00000000000000007735eebd/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/2c8795/00000000000000007735eebd/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/2c8795/00000000000000007735eebd/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3')
+      format('opentype');
   font-display: auto;
   font-style: italic;
   font-weight: 400;
@@ -116,13 +121,14 @@
 }
 
 @font-face {
-  font-family: "indivisible";
-  src: url("https://use.typekit.net/af/92f8dc/00000000000000007735eeb6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/92f8dc/00000000000000007735eeb6/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/92f8dc/00000000000000007735eeb6/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3")
-      format("opentype");
+  font-family: 'indivisible';
+  src:
+    url('https://use.typekit.net/af/92f8dc/00000000000000007735eeb6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/92f8dc/00000000000000007735eeb6/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/92f8dc/00000000000000007735eeb6/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3')
+      format('opentype');
   font-display: auto;
   font-style: normal;
   font-weight: 600;
@@ -130,12 +136,12 @@
 }
 
 .tk-indivisible {
-  font-family: "indivisible", sans-serif;
+  font-family: 'indivisible', sans-serif;
 }
 
 @layer base {
   :root {
-    --font-family: "indivisible";
+    --font-family: 'indivisible';
     --background: 0 0% 100%;
     --btn-bg: rgb(23, 23, 23, 1);
     --btn-bg-hover: rgb(56, 56, 56, 1);
@@ -170,7 +176,7 @@
   }
 
   .dark {
-    --font-family: "indivisible";
+    --font-family: 'indivisible';
     --background: 222.2 84% 4.9%;
     --btn-bg: rgb(23 23 23 1);
     --btn-bg-hover: rgb(56, 56, 56, 1);
@@ -214,5 +220,6 @@
 }
 
 * {
+  box-sizing: border-box;
   font-family: var(--font-family);
 }
