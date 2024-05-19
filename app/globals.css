@@ -1,76 +1,218 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind components;
+@tailwind utilities;
 
-  @layer base {
-    :root {
-      --background: 0 0% 100%;
-      --foreground: 222.2 84% 4.9%;
+/* font  */
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * indivisible:
+ *   - http://typekit.com/eulas/00000000000000007735eeb8
+ *   - http://typekit.com/eulas/00000000000000007735eeba
+ *   - http://typekit.com/eulas/00000000000000007735eebc
+ *   - http://typekit.com/eulas/00000000000000007735eebb
+ *   - http://typekit.com/eulas/00000000000000007735eebd
+ *   - http://typekit.com/eulas/00000000000000007735eeb6
+ * kallisto:
+ *   - http://typekit.com/eulas/00000000000000007735c0b1
+ *   - http://typekit.com/eulas/00000000000000007735c0b5
+ *   - http://typekit.com/eulas/00000000000000007735c0c2
+ *   - http://typekit.com/eulas/00000000000000007735c0c6
+ *   - http://typekit.com/eulas/00000000000000007735c0ca
+ *   - http://typekit.com/eulas/00000000000000007735c0ce
+ * kallisto-lined:
+ *   - http://typekit.com/eulas/00000000000000007735c0c1
+ * mono45-headline:
+ *   - http://typekit.com/eulas/00000000000000007735a0b0
+ * video:
+ *   - http://typekit.com/eulas/00000000000000007735cbd6
+ *   - http://typekit.com/eulas/00000000000000007735cbd9
+ *   - http://typekit.com/eulas/00000000000000007735cbdb
+ *   - http://typekit.com/eulas/00000000000000007735cbdd
+ * video-cond:
+ *   - http://typekit.com/eulas/00000000000000007735cbc7
+ *   - http://typekit.com/eulas/00000000000000007735cbc9
+ *   - http://typekit.com/eulas/00000000000000007735cbcc
+ *   - http://typekit.com/eulas/00000000000000007735cbcf
+ *   - http://typekit.com/eulas/00000000000000007735cbd4
+ *
+ * © 2009-2024 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2024-05-18 17:33:19 UTC"}*/
 
-      --card: 0 0% 100%;
-      --card-foreground: 222.2 84% 4.9%;
+@import url("https://p.typekit.net/p.css?s=1&k=mjp4fhc&ht=tk&f=15531.37729.37730.37733.37734.37736.37737.37735.43349.43350.43351.43352.43353.43354.43355.43356.43357.48821.48822.48825.48827.48828.48829&a=178147836&app=typekit&e=css");
 
-      --popover: 0 0% 100%;
-      --popover-foreground: 222.2 84% 4.9%;
+@font-face {
+  font-family: "indivisible";
+  src: url("https://use.typekit.net/af/dc1f1b/00000000000000007735eeb8/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/dc1f1b/00000000000000007735eeb8/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/dc1f1b/00000000000000007735eeb8/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
 
-      --primary: 222.2 47.4% 11.2%;
-      --primary-foreground: 210 40% 98%;
+@font-face {
+  font-family: "indivisible";
+  src: url("https://use.typekit.net/af/e8de55/00000000000000007735eeba/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/e8de55/00000000000000007735eeba/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/e8de55/00000000000000007735eeba/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal;
+}
 
-      --secondary: 210 40% 96.1%;
-      --secondary-foreground: 222.2 47.4% 11.2%;
+@font-face {
+  font-family: "indivisible";
+  src: url("https://use.typekit.net/af/51a05d/00000000000000007735eebc/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/51a05d/00000000000000007735eebc/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/51a05d/00000000000000007735eebc/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+}
 
-      --muted: 210 40% 96.1%;
-      --muted-foreground: 215.4 16.3% 46.9%;
+@font-face {
+  font-family: "indivisible";
+  src: url("https://use.typekit.net/af/9e7dcb/00000000000000007735eebb/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/9e7dcb/00000000000000007735eebb/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/9e7dcb/00000000000000007735eebb/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
 
-      --accent: 210 40% 96.1%;
-      --accent-foreground: 222.2 47.4% 11.2%;
+@font-face {
+  font-family: "indivisible";
+  src: url("https://use.typekit.net/af/2c8795/00000000000000007735eebd/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/2c8795/00000000000000007735eebd/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/2c8795/00000000000000007735eebd/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+}
 
-      --destructive: 0 84.2% 60.2%;
-      --destructive-foreground: 210 40% 98%;
+@font-face {
+  font-family: "indivisible";
+  src: url("https://use.typekit.net/af/92f8dc/00000000000000007735eeb6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/92f8dc/00000000000000007735eeb6/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/92f8dc/00000000000000007735eeb6/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+}
 
-      --border: 214.3 31.8% 91.4%;
-      --input: 214.3 31.8% 91.4%;
-      --ring: 222.2 84% 4.9%;
+.tk-indivisible {
+  font-family: "indivisible", sans-serif;
+}
 
-      --radius: 0.5rem;
-    }
+@layer base {
+  :root {
+    --font-family: "indivisible";
+    --background: 0 0% 100%;
+    --btn-bg: rgb(23, 23, 23, 1);
+    --btn-bg-hover: rgb(56, 56, 56, 1);
+    --foreground: 222.2 84% 4.9%;
+    --text-color: rgb(255, 255, 255, 1);
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
 
-    .dark {
-      --background: 222.2 84% 4.9%;
-      --foreground: 210 40% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
 
-      --card: 222.2 84% 4.9%;
-      --card-foreground: 210 40% 98%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
 
-      --popover: 222.2 84% 4.9%;
-      --popover-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
 
-      --primary: 210 40% 98%;
-      --primary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
 
-      --secondary: 217.2 32.6% 17.5%;
-      --secondary-foreground: 210 40% 98%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
 
-      --muted: 217.2 32.6% 17.5%;
-      --muted-foreground: 215 20.2% 65.1%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
 
-      --accent: 217.2 32.6% 17.5%;
-      --accent-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
 
-      --destructive: 0 62.8% 30.6%;
-      --destructive-foreground: 210 40% 98%;
-
-      --border: 217.2 32.6% 17.5%;
-      --input: 217.2 32.6% 17.5%;
-      --ring: 212.7 26.8% 83.9%;
-    }
+    --radius: 0.5rem;
   }
 
-  @layer base {
-    * {
-      @apply border-border;
-    }
-    body {
-      @apply bg-background text-foreground;
-    }
+  .dark {
+    --font-family: "indivisible";
+    --background: 222.2 84% 4.9%;
+    --btn-bg: rgb(23 23 23 1);
+    --btn-bg-hover: rgb(56, 56, 56, 1);
+    --text-color: rgb(255, 255, 255, 1);
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
   }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+* {
+  font-family: var(--font-family);
+}
