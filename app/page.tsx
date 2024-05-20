@@ -7,7 +7,11 @@ import { AccountABI } from './utils/abis'
 import { Header } from '@/components/Header'
 import { Tab } from '@/components/Tab'
 import { CreateAccount } from '@/components/CreateAccount'
-import { CONTRACT_FACTORY_ADDRESS } from '@/lib/constants'
+import {
+  CONTRACT_FACTORY_ADDRESS,
+  CONTRACT_NULL_ADDRESS
+} from '@/lib/constants'
+import { useMemo } from 'react'
 
 export default function Home() {
   const account = useAccount()
@@ -26,30 +30,14 @@ export default function Home() {
   //   functionName: 'get_orders'
   // })
 
-  const { data: orders, error: errorOrders } = useReadContract({
-    abi: AccountABI,
-    address: CONTRACT_FACTORY_ADDRESS,
-    account: account.address,
-    functionName: 'get_orders'
-  })
-
-  // console.log('account', account)
-  // console.log('data', data)
-  console.log('orders', orders)
-  console.log('errorOrders', errorOrders)
-
-  // console.log('error', error)
+  console.log('account.address', account.address)
 
   return (
     <div className="flex w-full justify-center">
       <div className="w-full md:w-[1400px] pt-[20px] px-[10px]">
-        {!account || (!account.address && orders) ? (
-          <div className="flex h-[100%]">
-            <CreateAccount />
-          </div>
-        ) : (
-          <Tab />
-        )}
+        <div className="flex h-[100%]">
+          <CreateAccount />
+        </div>
       </div>
     </div>
   )
